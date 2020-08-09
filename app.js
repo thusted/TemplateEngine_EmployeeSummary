@@ -19,22 +19,22 @@ inquirer.prompt([
     {
         type: "input",
         name: "managerName",
-        message: "Please enter the name of your team manager:"
+        message: "Please enter your name:"
     },
     {
         type: "input",
         name: "managerId",
-        message: "Please enter the id of your manager:"
+        message: "Please enter your employee id:"
     },
     {
         type: "input",
         name: "managerEmail",
-        message: "Please enter the email of your manager:"
+        message: "Please enter your email:"
     },
     {
         type: "input",
         name: "officeNumber",
-        message: "Please enter the office number of your manager:"
+        message: "Please enter your office number:"
     }
 ]).then((answers) => {
     const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.officeNumber);
@@ -70,7 +70,7 @@ const addEnginer = () => {
         {
             type: "input",
             name: "engineerName",
-            message: "Please enter the name of your team engineer:"
+            message: "Please enter the name of your engineer:"
         },
         {
             type: "input",
@@ -131,7 +131,6 @@ const addIntern = () => {
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
 // generate and return a block of HTML including templated divs for each employee!
-
 const generateHTML = () => {
     fs.writeFileSync(outputPath, render(teamMembers));
 };
