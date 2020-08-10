@@ -12,7 +12,6 @@ const render = require("./lib/htmlRenderer");
 
 const teamMembers = [];
 
-
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
 inquirer.prompt([
@@ -50,7 +49,7 @@ const addEmployee = () => {
         {
             type: "list",
             name: "employeeType",
-            message: "Please select the type of employee you would like to add:",
+            message: "Please select the type of employee you would like to add to your team:",
             choices: ["Engineer", "Intern", "I would not like to add another employee."]
         }
     ]).then((answers) => {
