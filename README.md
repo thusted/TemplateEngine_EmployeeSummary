@@ -41,3 +41,4 @@ Under the test folder, there are tests created for Employee.js, Engineer.js, Man
 For any further questions, feel free to contact me on GitHub at http://github.com/thusted or send me an email at: tiana.husted@gmail.com.
 
 ## Demo of Application
+https://www.youtube.com/watch?v=Sq2YE3__nfI&feature=youtu.be
