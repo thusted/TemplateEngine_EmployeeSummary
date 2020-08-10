@@ -1,6 +1,6 @@
 # TemplateEngine_EmployeeSummary
 
-![]https://img.shields.io/github/issues/thusted/TemplateEngine_EmployeeSummary ![]https://img.shields.io/github/forks/thusted/TemplateEngine_EmployeeSummary
+![](https://img.shields.io/github/issues/thusted/TemplateEngine_EmployeeSummary) ![](https://img.shields.io/github/forks/thusted/TemplateEngine_EmployeeSummary)
 
 ## Description
 This is a command-line application that generates an HTML file that displays information on an engineeering team based on user input. This application uses the Inquirer package to prompt the user to fill out information regarding their engineering team. It will first prompt the user to enter information regarding the team's manager (the user) and then will give the user the opportunity to add engineers and interns to the team.
@@ -14,8 +14,8 @@ so that I have quick access to emails and GitHub profiles
 
 ## Table of Contents
 * [Description](#Description)
+* [User Story](#User-story)
 * [Installation](#Installation)
-* [User Story](#User_story)
 * [Usage](#Usage)
 * [Licenses](#Licenses)
 * [Contributing](#Contributing)
