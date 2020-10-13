@@ -12,6 +12,9 @@ I want to generate a webpage that displays my team's basic info
 so that I have quick access to emails and GitHub profiles
 ```
 
+## Demo of Application
+https://www.youtube.com/watch?v=Sq2YE3__nfI&feature=youtu.be
+
 ## Table of Contents
 * [Description](#Description)
 * [User Story](#User-story)
@@ -39,6 +42,3 @@ Under the test folder, there are tests created for Employee.js, Engineer.js, Man
 
 ## Questions
 For any further questions, feel free to contact me on GitHub at http://github.com/thusted or send me an email at: tiana.husted@gmail.com.
-
-## Demo of Application
-https://www.youtube.com/watch?v=Sq2YE3__nfI&feature=youtu.be
